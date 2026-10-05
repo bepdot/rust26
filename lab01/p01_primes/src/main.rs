@@ -13,5 +13,5 @@ fn primechecker(value: i32) -> bool {
             return false;
         }
     }
-    return true;
+    true
 }

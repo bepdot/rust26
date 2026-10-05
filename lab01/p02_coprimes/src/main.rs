@@ -22,5 +22,5 @@ fn coprime_check(x: i32, y: i32) -> bool {
             return false;
         }
     }
-    return true;
+    true
 }

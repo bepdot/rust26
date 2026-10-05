@@ -24,5 +24,5 @@ fn _get_bottle_word_variant(cnt: i32) -> String {
     if cnt == 1 {
         word = String::from("bottle");
     }
-    return word;
+    word
 }
