@@ -1,8 +1,8 @@
 fn main() {
     println!("primes from 1 to 100:");
     for n in 1..101 {
-        if primechecker(n) == true {
-            print!("{} ", n as i32);
+        if primechecker(n) {
+            print!("{n} ");
         }
     }
 }

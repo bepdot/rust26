@@ -5,7 +5,7 @@ fn main() {
     for x in 2..101 {
         print!("{} and ", x);
         for y in 2..101 {
-            if coprime_check(x, y) == true {
+            if coprime_check(x, y) {
                 print!("{}, ", y);
             }
         }
